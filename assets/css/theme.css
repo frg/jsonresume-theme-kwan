@@ -415,8 +415,8 @@ h4 > .fa {
   .card-nested {
     padding: .5rem 0 .5rem 0;
   }
-  .labels {
-    display: inline;
+  .label-keyword {
+    border-color: black;
   }
   .skill-info {
     margin-left: 0;
