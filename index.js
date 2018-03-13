@@ -134,8 +134,8 @@ function render(resume) {
         if (start_date) {
             project_info.startDate = moment(start_date).format(date_format);
         }
-        +
-         if (end_date) {
+        
+        if (end_date) {
             project_info.endDate = moment(end_date).format(date_format);
         }
 
