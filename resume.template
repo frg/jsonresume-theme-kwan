@@ -127,7 +127,7 @@
               {{/each}}
             </ul>
 
-            {{#if resume.education}}
+            {{#if resume.projects}}
             <h4 id="projects"> <span class="fa fa-lg fa-code-fork"></span> <span class="title">Projects</span> </h4>
             <ul class="list-unstyled">
               {{#each resume.projects}}
@@ -160,7 +160,7 @@
             </ul>
             {{/if}}
 
-            {{#if resume.education}}
+            {{#if resume.skills}}
             <h4 id="skills"> <span class="fa fa-lg fa-code"></span> <span class="title">Skills</span> </h4>
             <ul class="list-unstyled">
               {{#each resume.skills}}
