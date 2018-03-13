@@ -127,6 +127,7 @@
               {{/each}}
             </ul>
 
+            {{#if resume.education}}
             <h4 id="projects"> <span class="fa fa-lg fa-code-fork"></span> <span class="title">Projects</span> </h4>
             <ul class="list-unstyled">
               {{#each resume.projects}}
@@ -157,7 +158,9 @@
                 </li>
               {{/each}}
             </ul>
+            {{/if}}
 
+            {{#if resume.education}}
             <h4 id="skills"> <span class="fa fa-lg fa-code"></span> <span class="title">Skills</span> </h4>
             <ul class="list-unstyled">
               {{#each resume.skills}}
@@ -167,9 +170,10 @@
               </li>
               {{/each}}
             </ul>
+            {{/if}}
   
+            {{#if resume.education}}
             <h4 id="education"><span class="fa fa-lg fa-mortar-board"></span> <span class="title">Education</span></h4>
-            
             <ul class="list-unstyled">
               {{#each resume.education}}
                 <li class="card-nested">
@@ -191,6 +195,7 @@
                 </li>
               {{/each}}
             </ul>
+            {{/if}}
 
             {{#if resume.awards}}
             <h4 id="awards"><span class="fa fa-lg fa-trophy"></span> <span class="title">Awards</span></h4>
