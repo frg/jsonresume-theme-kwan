@@ -92,7 +92,7 @@ function render(resume) {
                         "bitbucket", "skype"],
         date_format = 'MMM YYYY';
 
-    if (!resume.basics.picture && hasEmail(resume)) {
+    if ((!resume.basics.picture || resume.basics.picture !== "")  && hasEmail(resume)) {
         resume.basics.picture = "https:" + gravatar.url(resume.basics.email.replace('(at)', '@'), {
             s: '100',
             r: 'pg',
