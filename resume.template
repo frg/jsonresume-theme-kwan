@@ -65,7 +65,9 @@
                         <span class="info">
                           {{city}}, 
                           {{#if region}}
-                            {{region}},
+                            {{#if region.length}}
+                              {{region}},
+                            {{/if}}
                           {{/if}}
                           {{countryCode}}
                         </span>

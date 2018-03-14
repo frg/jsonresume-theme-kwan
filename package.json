@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Kwan theme for jsonresume. Other resumes may have the coin, but they won't have the 'Kwan'.",
   "main": "index.js",
+  "scripts": {
+    "build": "grunt less"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/icoloma/jsonresume-theme-kwan.git"
@@ -26,6 +29,7 @@
   },
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-cli": "^1.2.0",
     "grunt-contrib-less": "^0.11.4",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-exec": "^0.4.6",
