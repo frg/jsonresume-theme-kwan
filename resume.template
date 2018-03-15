@@ -138,8 +138,8 @@
                 <li class="card-nested">
                   <div class="content has-sidebar">
                     <p class="clear-margin-sm">
-                      {{#if url}}<a href="{{url}}" target="_blank">{{name}}</a>{{else}}{{name}}{{/if}},
-                      <strong>{{roles}}</strong>
+                      {{#if url}}<a href="{{url}}" target="_blank">{{name}}</a>{{else}}{{name}}{{/if}}
+                      {{#roles}}, <strong>{{roles}}</strong>{{/roles}}
                     </p>
                     <p class="text-muted">
                       <small>
@@ -147,7 +147,7 @@
                         {{#if duration}} <span> <i class="fa fa-clock-o icon-left"></i> {{duration}} </span> {{/if}}
                       </small>
                     </p>
-                    <p>{{summary}}</p>
+                    <p>{{description}}</p>
                     {{#if highlights}}
                       <ul>
                         {{#each highlights}}
