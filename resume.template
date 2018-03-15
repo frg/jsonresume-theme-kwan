@@ -138,8 +138,7 @@
                 <li class="card-nested">
                   <div class="content has-sidebar">
                     <p class="clear-margin-sm">
-                      {{#if url}}<a href="{{url}}" target="_blank">{{name}}</a>{{else}}{{name}}{{/if}}
-                      {{#roles}}, <strong>{{.}}</strong>{{/roles}}
+                      {{#if url}}<a href="{{url}}" target="_blank">{{name}}</a>{{else}}{{name}}{{/if}}{{#roles}} - <strong>{{.}}</strong>{{/roles}}
                     </p>
                     <p class="text-muted">
                       <small>
